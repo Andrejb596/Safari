@@ -11,7 +11,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/reset.css"> -->
   <link rel="stylesheet" href="./css/slick.css">
   <link rel="stylesheet" href="./css/magnific-popup.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -27,7 +26,7 @@
             <img class="logo__img" src="./images/logo.svg" alt="logo">
           </a>
           <div class="header__phone">
-            <span>Ordering tours and booking:</span>
+            <span class="lng-tel">Ordering tours and booking:</span>
             <a href="tel:380998274294" class="header__phone-number">tel. +380 99 82 74 294</a>
           </div>
           <nav class="menu">
@@ -36,36 +35,44 @@
             </button>
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#booking" class="menu__link">Booking</a>
+                <a href="#booking" class="menu__link lng-booking">Booking</a>
               </li>
               <li class="menu__item">
-                <a href="#direction" class="menu__link">Excursions</a>
+                <a href="#direction" class="menu__link lng-excursion">Excursions</a>
               </li>
               <li class="menu__item">
-                <a href="#popular" class="menu__link">Tours</a>
+                <a href="#popular" class="menu__link lng-tours">Tours</a>
               </li>
               <li class="menu__item">
-                <a href="#about" class="menu__link">About Africa</a>
+                <a href="#about" class="menu__link lng-about__af">About Africa</a>
               </li>
               <li class="menu__item">
-                <a href="#footer" class="menu__link">About Us</a>
+                <a href="#footer" class="menu__link lng-about__us">About Us</a>
               </li>
             </ul>
           </nav>
         </div>
-        <h1 class="header__title">
+        <h1 class="header__title lng-header__title">
           Safari in Africa
         </h1>
-        <div class="header__circles">
-          <div class="white" onclick="color_changer('white')"></div>
-          <div class="green" onclick="color_changer('green')"></div>
-          <div class="red" onclick="color_changer('red')"></div>
+        <div class="header__wrapper">
+          <div class="header__circles">
+            <div class="white" onclick="color_changer('white')"></div>
+            <div class="green" onclick="color_changer('green')"></div>
+            <div class="red" onclick="color_changer('red')"></div>
+          </div>
+          <div class="castom__select">
+            <select class="change_lang">
+              <option value="ua">UA</option>
+              <option value="en" selected="en">EN</option>
+            </select>
+          </div>
         </div>
         <div class="header__content">
-          <p class="header__descr">
+          <p class="header__descr lng-header__descr">
             Tours to the most exotic places Come with us for new experiences!
           </p>
-          <a href="#booking" class="header__btn">
+          <a href="#booking" class="header__btn lng-header__btn">
             Submit your application
           </a>
           <div class="header__arrow">
@@ -90,94 +97,94 @@
         <!-- .direction__item*11>img.direction__img[src="./images/direction-$.jpg"]+p.direction__text{wdww} -->
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-1.jpg" alt="direction-1">
-          <p class="direction__text">Namibia</p>
+          <p class="direction__text lng-Namibia">Namibia</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-2.jpg" alt="direction-2">
-          <p class="direction__text">Tanzania</p>
+          <p class="direction__text lng-Tanzania">Tanzania</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-3.jpg" alt="direction-3">
-          <p class="direction__text">Kenya</p>
+          <p class="direction__text lng-Kenya">Kenya</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-4.jpg" alt="direction-4">
-          <p class="direction__text">Cape Town</p>
+          <p class="direction__text lng-Cape__town">Cape Town</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-5.jpg" alt="direction-5">
-          <p class="direction__text">Madagascar</p>
+          <p class="direction__text lng-Madagascar">Madagascar</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-6.jpg" alt="direction-6">
-          <p class="direction__text">Zanzibar</p>
+          <p class="direction__text lng-Zanzibar">Zanzibar</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-7.jpg" alt="direction-7">
-          <p class="direction__text">Mozambique</p>
+          <p class="direction__text lng-Mozambique">Mozambique</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-8.jpg" alt="direction-8">
-          <p class="direction__text">Zambia</p>
+          <p class="direction__text lng-Zambia">Zambia</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-9.jpg" alt="direction-9">
-          <p class="direction__text">Congo</p>
+          <p class="direction__text lng-Congo">Congo</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-10.jpg" alt="direction-10">
-          <p class="direction__text">Botswana</p>
+          <p class="direction__text lng-Botswana">Botswana</p>
         </div>
         <div class="direction__item">
           <img class="direction__img" src="./images/direction-11.jpg" alt="direction-11">
-          <p class="direction__text">South Africa</p>
+          <p class="direction__text lng-South__africa">South Africa</p>
         </div>
       </div>
     </div>
   </div>
   <section class="travel__info ">
     <div class="container">
-      <h2 class="traver-info__title title">Main directions</h2>
+      <h2 class="traver-info__title title lng-traver__title">Main directions</h2>
       <div class="travel-info__items">
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_1" src="./images/travel_1.svg">
-          <p class="travel-info__text">
+          <p class="travel-info__text lng-traver__text-1">
             Full organization of recreation: group and individual tours.
           </p>
         </div>
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_2" src="./images/travel_2.svg">
-          <p class="travel-info__text">
+          <p class="travel-info__text lng-traver__text-2">
             Organization of a transfer from anywhere in the world
           </p>
         </div>
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_3" src="./images/travel_3.svg">
-          <p class="travel-info__text">
+          <p class="travel-info__text lng-traver__text-3">
             Accommodation in hotels along the route
           </p>
         </div>
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_4" src="./images/travel_4.svg">
-          <p class="travel-info__text">
+          <p class="travel-info__text lng-traver__text-4">
             Car rental and any type of transport
           </p>
         </div>
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_5" src="./images/travel_5.svg">
-          <p class="travel-info__text">
+          <p class="travel-info__text lng-traver__text-5">
             Medical insurance
           </p>
         </div>
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_6" src="./images/travel_6.svg">
-          <p class="travel-info__text">
-            Сопровождение русскоговорящих гидов
+          <p class="travel-info__text lng-traver__text-6">
+            Accompanying Russian-speaking guides
           </p>
         </div>
         <div class="travel-info__item">
           <img class="travel-info__img" alt="travel_7" src="./images/travel_7.svg">
-          <p class="travel-info__text">
+          <p class="travel-info__text lng-traver__text-7">
             Organization of VIP tours
           </p>
         </div>
@@ -189,57 +196,57 @@
       <h2 class="popular__title title">Popular Offers</h2>
       <div class="popular__items">
         <!-- a.popular__link[href="#!"]*10>h4.popular__title{wdwdw}+p.popular__price -->
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_1.jpg);">
-          <h4 class="popular__link-title">JOURNEY IN NAMIBIA</h4>
-          <p class="popular__price">from 3000 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_1.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__1">JOURNEY IN NAMIBIA</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 3000 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_2.jpg);">
-          <h4 class="popular__link-title">KENYA CLASSICS</h4>
-          <p class="popular__price">from 3500 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_2.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__2">KENYA CLASSICS</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 3500 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_3.jpg);">
-          <h4 class="popular__link-title popular__link-title--big">THE MOST POPULAR SAFARI PARKS AND RESERVES IN
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_3.jpg);">
+          <h4 class="popular__link-title popular__link-title--big lng-popular__card-name__3">THE MOST POPULAR SAFARI PARKS AND RESERVES IN
             TANZANIA</h4>
-          <p class="popular__country">Tanzania</p>
-          <p class="popular__time">7 days / 6 nights</p>
-          <p class="popular__price">from 1700 $</p>
+          <p class="popular__country lng-popular__card-p__3">Tanzania</p>
+          <p class="popular__time">7 <span class="lng-popular__card-day">days</span> / 6 <span class="lng-popular__card-night">nights</span></p>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 1700 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_4.jpg);">
-          <h4 class="popular__link-title">BOTSWANA STUDY</h4>
-          <p class="popular__price">from 2500 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_4.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__4">BOTSWANA STUDY</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 2500 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_5.jpg);">
-          <h4 class="popular__link-title">JOURNEY THROUGH 5 COUNTRIES OF SOUTH AFRICA</h4>
-          <p class="popular__price">from 5000 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_5.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__5">JOURNEY THROUGH 5 COUNTRIES OF SOUTH AFRICA</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 5000 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_6.jpg);">
-          <h4 class="popular__link-title popular__link-title--big">GRAND ADVENTURE IN 9 AFRICA COUNTRIES</h4>
-          <p class="popular__country">South Africa, Zambia, Namibia, Zimbabwe, Botswana, Mozambique, Tanzania, Kenya</p>
-          <p class="popular__time">24 days / 23 nights</p>
-          <p class="popular__price">from 6000 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_6.jpg);">
+          <h4 class="popular__link-title popular__link-title--big lng-popular__card-name__6">GRAND ADVENTURE IN 9 AFRICA COUNTRIES</h4>
+          <p class="popular__country lng-popular__card-p__6">South Africa, Zambia, Namibia, Zimbabwe, Botswana, Mozambique, Tanzania, Kenya</p>
+          <p class="popular__time">24 <span class="lng-popular__card-day">days</span> / 23 <span class="lng-popular__card-night">nights</span></p>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 6000 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_7.jpg);">
-          <h4 class="popular__link-title">GREAT CAPE TOWN</h4>
-          <p class="popular__price">from 2500 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_7.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__7">GREAT CAPE TOWN</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 2500 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_8.jpg);">
-          <h4 class="popular__link-title">JOURNEY IN SOUTH AFRICA:</h4>
-          <p class="popular__price">from 2500 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_8.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__8">JOURNEY IN SOUTH AFRICA:</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 2500 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_9.jpg);">
-          <h4 class="popular__link-title">THE GREAT MIGRATION IN TANZANIA AND HOLIDAYS IN ZANZIBAR</h4>
-          <p class="popular__price">from 1700 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_9.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__9">THE GREAT MIGRATION IN TANZANIA AND HOLIDAYS IN ZANZIBAR</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 1700 $</p>
         </a>
-        <a class="popular__link" href="#!" style="background-image: url(../images/popular_10.jpg);">
-          <h4 class="popular__link-title">FROM CAPE TOWN TO VICTORIA FALLS</h4>
-          <p class="popular__price">from 2500 $</p>
+        <a class="popular__link" href="#!" style="background-image: url(./images/popular_10.jpg);">
+          <h4 class="popular__link-title lng-popular__card-name__10">FROM CAPE TOWN TO VICTORIA FALLS</h4>
+          <p class="popular__price"><span class="lng-popular__price">from</span> 2500 $</p>
         </a>
       </div>
     </div>
   </section>
   <section class="map ">
     <div class="container">
-      <h2 class="map__title title">Africa map</h2>
+      <h2 class="map__title title lng-map__title">Africa map</h2>
       <iframe class="map__iframe"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9883764.850115988!2d23.775227842117825!3d-15.397385024390605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10a06c0a948cf5d5%3A0x108270c99e90f0b3!2z0JDRhNGA0LjQutCw!5e1!3m2!1sru!2sua!4v1664030941623!5m2!1sru!2sua"
         width="100%" height="610" style="border:0;" allowfullscreen="" loading="lazy"
@@ -250,8 +257,8 @@
     <div class="container">
       <div class="about__inner">
         <div class="about__content">
-          <h2 class="about__title title">About safari tours</h2>
-          <p class="about__text">
+          <h2 class="about__title title lng-about__title">About safari tours</h2>
+          <p class="about__text lng-about__text">
             East and South Africa are the most popular places where you can enjoy an exciting
             journey called a safari. It is here that all conditions are created so that tourists can feel like a piece
             of the virgin nature of Africa. Safari tours to Africa are characterized by unique programs in which
@@ -259,7 +266,7 @@
             where you can enjoy an exciting journey called a safari. It is here that all conditions are created so that
             tourists can feel like a piece of the virgin nature of Africa.
           </p>
-          <a class="about__link" href="#!">Read more</a>
+          <a class="about__link lng-about__link" href="#!">Read more</a>
         </div>
         <div class="about__popup">
           <a class="popup__link" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
@@ -272,8 +279,8 @@
   <section class="gallery ">
     <div class="container">
       <div class="gallery__top">
-        <h2 class="gallery__title title">Photo gallery</h2>
-        <a class="gallery__link" href="#!">Go to section</a>
+        <h2 class="gallery__title title lng-gallery__title">Photo gallery</h2>
+        <a class="gallery__link lng-gallery__link" href="#!">Go to section</a>
       </div>
       <div class="gallery__slider">
 
@@ -327,23 +334,21 @@
   </section>
   <section class="tour ">
     <div class="container">
-      <h2 class="tour__title title">Premium safari tour</h2>
+      <h2 class="tour__title title lng-tour__title">Premium safari tour</h2>
       <div class="tour__box">
-        <div class="tour__text">
+        <div class="tour__text lng-tour__text-1">
           Safari tour? this is a unique journey into the world of wildlife, acquaintance with the
           many-sided Africa, observation of wild animals in their usual habitat.
         </div>
         <div class="tour__text">
-          <span>SAFARI TOURISTIC</span> specializes in luxury tourism and presents its clients with unique
-          programs of safari tours. Among the options presented, you can find something unique, according to your taste.
+          <span class="lng-tour__text-span-2">TOURIST SAFARI</span> <span class="lng-tour__text-2">specializes in luxury tourism and presents its clients with unique programs of safari tours. Among the options presented, you can find something unique, according to your taste.</span>
         </div>
-        <div class="tour__text">
+        <div class="tour__text lng-tour__text-3">
           If you want to go on the most unforgettable journey of your life, visit unique places
           and see what few people manage to see? then safari tours are made for you.
         </div>
-        <div class="tour__text">
-          Safari tours are chosen by tourists who prefer a dynamic, bright, full of emotions and
-          impressions vacation.
+        <div class="tour__text lng-tour__text-4">
+          Safari tours are chosen by tourists who prefer a dynamic, bright, full of emotions and impressions vacation.
           Africa safari tour programs are designed for a specific group of people who, under the auspices of a curator,
           carry out an exciting journey along a pre-planned route. We are focused on VIP class clients, so all the
           offers presented in our collection are distinguished by the highest class, a well-thought-out program,
@@ -354,40 +359,40 @@
       <div class="tour__info">
         <div class="tour__info-item">
           16
-          <p class="tour__info-text">years of successful work</p>
+          <p class="tour__info-text lng-tour__info-text-1">years of successful work</p>
         </div>
         <div class="tour__info-item">
           50
-          <p class="tour__info-text">hotels without intermediaries</p>
+          <p class="tour__info-text lng-tour__info-text-2">hotels without intermediaries</p>
         </div>
         <div class="tour__info-item">
           25+
-          <p class="tour__info-text">own tours</p>
+          <p class="tour__info-text lng-tour__info-text-3">own tours</p>
         </div>
         <div class="tour__info-item">
           1220000
-          <p class="tour__info-text">sq. km - the area of our travels</p>
+          <p class="tour__info-text lng-tour__info-text-4">sq. km - the area of our travels</p>
         </div>
         <div class="tour__info-item">
           500
-          <p class="tour__info-text">satisfied tourists</p>
+          <p class="tour__info-text lng-tour__info-text-5">satisfied tourists</p>
         </div>
       </div>
     </div>
   </section>
   <section class="booking " id="booking">
     <div class="container">
-      <h2 class="booking__title title">Book your holiday in Africa</h2>
+      <h2 class="booking__title title lng-booking__title">Book your holiday in Africa</h2>
       <form class="booking__form">
         <input class="booking__input" type="text" placeholder="Your name">
         <input class="booking__input" type="text" placeholder="Telephone">
         <input class="booking__input" type="text" placeholder="E-mail">
         <textarea class="booking__area" placeholder="Comment"></textarea>
-        <button class="booking__btn" type="submit">Submit an application</button>
+        <button class="booking__btn lng-booking__btn" type="submit">Submit an application</button>
         <label class="booking__label">
           <input class="booking__checkbox" type="checkbox">
           <span class="booking__checkbox-style"></span>
-          Consent to the processing of personal data
+          <span class="lng-booking__text">Consent to the processing of personal data</span>
         </label>
       </form>
     </div>
@@ -413,33 +418,30 @@
       </div>
       <div class="footer__box">
         <div class="foote__info">
-          <p class="footer___box-title">Travel agency "Safari Touristik"</p>
+          <p class="footer___box-title lng-footer___title-1">Travel agency "Safari Touristik"</p>
           <p class="footer__copy">© 2021. All rights reserved</p>
-          <a class="footer__link" href="#!">Privacy Policy</a>
+          <a class="footer__link lng-footer__link" href="#!">Privacy Policy</a>
         </div>
         <div class="footer__address">
-          <p class="footer___box-title">Address:</p>
-          <address>Kyiv, Mira street, 20, Dynamo Hotel, 1st floor</address>
+          <p class="footer___box-title lng-footer___title-2">Address:</p>
+          <address class="lng-address">Kyiv, Mira street, 20, Dynamo Hotel, 1st floor</address>
         </div>
         <div class="footer__contacts">
-          <p class="footer___box-title">Ordering tours and booking:</p>
-          <a class="footer__phone" href="tel:80998543543">тел. 8-099-8-543-543</a>
+          <p class="footer___box-title lng-footer___title-3">Ordering tours and booking:</p>
+          <a class="footer__phone" href="tel:80998543543">tel. 8-099-8-543-543</a>
           <a class="footer__gmail" href="mailto:safari_turistic@gmail.com">gmail: safari_turistic@gmail.com</a>
         </div>
       </div>
     </div>
   </footer>
-
-
-
-
-
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/slick.min.js"></script>
   <script src="./js/jquery.magnific-popup.min.js"></script>
+  <script src="./js/lang.js"></script>
   <script src="./js/main.js"></script>
 </body>
 
 </html>
+
+
+
